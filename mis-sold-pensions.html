@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Hendersons</title>
+      
+    <!-- Bootstrap core CSS -->
+     <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+     <link href="css/hendersons_site.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://use.typekit.net/uwz5vwe.css"> 
+      <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/>
+  </head>
+    
+    
+  <body id="pensions">
+      
+      
+<header>
+ <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+     <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="img/hendersons_brand.png" height="50px"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="navbar-collapse collapse" id="navbarCollapse">      
+          <ul class="navbar-nav ms-auto">            
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">             
+              <a class="dropdown-item" href="mis-sold-coatings.html">Mis-sold Coatings</a>
+              <a class="dropdown-item" href="mis-sold-pensions.html">Mis-sold Pensions</a>            
+            </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact</a>
+            </li>                  
+          </ul>
+        <div class="phone-btn color-yellow py-2 ms-3"><img class="float-start me-2" src="img/icon-phone.svg" width="20px;"/><p>0161 706 0811</p></div>                 
+        </div>
+    </div>
+  </nav>
+</header>
+
+        
+<main role="main">
+    
+<div class="jumbotron">
+    <div class="container"> 
+        <div class="row align-items-center">
+            <div class="col-sm-8 offset-sm-2 text-center">
+                <h1 class="display-2 ">Mis-sold pensions</h1> 
+                <p>Hendersons are experts in helping people claim compensation. Our small and friendly team of advisers can identify whether you have been wrongly sold your pension, whether you can claim and if you do choose to make a claim, they will keep you updated on your case throughout.</p>  
+                <div class="divider"></div>
+                <a class="btn btn-pension btn-outline-dark btn-lg" data-toggle="modal" data-target="#contactForm">Start your claim</a>                
+            </div>            
+        </div>        
+    </div>
+</div>    
+    
+<!-- Modal -->
+<div class="modal fade" id="contactForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h1 class="modal-title color-blue" id="contactFormLabel">Your contact details</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">        
+          <form class="mt-3" action="contact-claim.php" method="post">                                
+               <div class="form-floating mb-3">
+                  <input type="name" class="form-control" id="floatingInput" name="Name" placeholder="Full Name" pattern=[A-Z\sa-z]{3,20} required>
+                  <label for="name" class="form-label color-blue">Full Name:</label>
+                </div>                
+                <div class="form-floating mb-3">
+                  <input type="phone" class="form-control" id="floatingInput" name="Phone" placeholder="Telephone" required>                    
+                  <label for="phone" class="form-label color-blue">Telephone number:</label>                
+                    <div class="form-text">
+                      <p class="small">Our advisors will use this number to call you to discuss your claim.</p>
+                    </div>                  
+                </div>  
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" name="Email" placeholder="Email Address:" required>
+                  <label for="email" class="form-label color-blue">Email Address:</label>
+                    <div class="form-text">
+                    </div> 
+                  <p class="small">We'll need to send you important documents by email.</p>                             
+                </div>                        
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="privacycheck" name="privacycheck" value="privacycheck" required>
+                    <label class="form-check-label form-text small" for="privacycheck">I have read and understood the <a href="privacy.html" target="_blank">Privacy Policy</a></label>
+                </div>  
+            <div class="d-grid mt-3">  
+                 <button type="submit" class="btn btn-lg btn-form btn-block">Start your claim</button>
+            </div>    
+        </form>  
+      </div>
+    </div>
+  </div>
+</div>      
+    
+<section class="about">
+  <div class="container">
+        <div class="row text-center">
+            <div class="col-sm">
+                <h2>The Financial Conduct Authority recently found that many customers have been poorly advised on their pensions and thousands of people are now successfully claiming their money back. *</h2>
+                <div class="divider"></div>
+                <p class="small">*From www.fca.org.uk "Defined benefit pension transfers – market-wide data results" 19/06/2019</p>
+
+            </div>    
+        </div> 
+      
+   </div><!-- /.container -->
+
+</section>        
+    
+<section class="content">  
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-sm-6 ">
+                <h1 class="color-blue">Was my pension mis-sold?</h1>
+                <p>Pension advisers have to follow certain processes and if they don’t, you may have been sold, or transferred to, the wrong pension for you, especially if you have lost money when transferring or were not clear about the choices you made and the charges that applied.</p>
+                <p>Contact us if you answer 'no' to any of the following questions:</p>
+            </div>   
+            <div class="col-sm-6">
+                <img src="img/pension-misselling.jpg" width="100%" />
+            </div>              
+        </div> 
+        <div class="divider"></div>
+        <div class="row text-center">   
+            <div class="col-sm">
+                <hr>
+                <img src="img/icon_tick_blue.svg" class="mb-2" width="40px"/>             
+                <p class="color-blue">Did you feel the adviser gave you all the information you needed?</p>
+            </div>
+            <div class="col-sm">
+                <hr>
+                <img src="img/icon_tick_blue.svg" class="mb-2" width="40px"/>            
+                <p class="color-blue">Do you feel you were provided with all the options available for the best possible deal?</p>
+            </div>
+            <div class="col-sm">
+                <hr>
+                <img src="img/icon_tick_blue.svg" class="mb-2" width="40px"/>                
+                <p class="color-blue">Has the SIPP increased in value in line with inflation?</p>
+            </div>            
+            <div class="col-sm">
+                <hr>
+                <img src="img/icon_tick_blue.svg" class="mb-2" width="40px"/>
+                <p class="color-blue">Did the adviser account for any health and medical issues?</p>
+            </div>            
+        </div>         
+    </div> 
+</section>  
+    
+<section class="content2">  
+    <div class="container"> 
+        <div class="row">         
+             <div class="col-sm-6">              
+                <h1 class="color-blue">Was my pension right for me?</h1>
+                <p>Many people experienced losses after their advisers recommended they put their money in high-risk investments without fully explaining the risks.</p> 
+                <img src="img/pension_losses.jpg" width="100%" class="mt-3"/>                      
+            </div>     
+             <div class="col-sm-4 offset-sm-1 mt-3">
+                <p><strong>You may have been mis-sold if:</strong></p>                
+                <ul>
+                    <li>You were pressured into making a risky investment</li>
+                    <li>You were advised to move from a workplace pension to a SIPP</li>
+                    <li>Your IFA or SIPP provider didn’t explain clearly where you should invest</li>
+                    <li>The terms and conditions of your investments were not made clear to you</li>
+                    <li>You were not made aware of all relevant costs</li>    
+                    <li>The fund had a very high commission rate</li>                     
+                </ul>                
+            </div>             
+        </div>   
+        <div class="divider"></div>
+        <div class="row"> 
+            <div class="col-sm-6">
+                <h1 class="color-blue">What is a SIPP?</h1>
+                <p>A Self-Invested Personal Pension (SIPP) is a form of pension plan, but unlike a standard personal pension where investments are made for you, a SIPP allows you to choose where your money is invested. Generally those who choose a SIPP use the services of an IFA to guide them on their investments. SIPPs are a cost-effective way of managing your pension and with the right advice can produce better returns than a standard pension, however some SIPPs have high charges and offer very risky investments with high commissions.</p>
+            </div>    
+            <div class="col-sm-6">
+                <h1 class="color-blue">What is a QROPS?</h1> 
+                <p>A Qualified Recognised Overseas Pension Scheme is an international pension that has met the conditions stipulated by HMRC and so is eligible to receive assets from UK registered pension schemes. It has been judged to be of the same of equivalent standard as a UK pension. QROPS has become an increasingly popular option for many people living overseas that are no longer contributing to existing schemes in the UK and wish to remove their assets from restrictive final salary and defined contribution pensions.</p>
+            </div>  
+        </div>    
+    </div> 
+</section>         
+ 
+<section class="bullets">  
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm">
+                <h1>How to start a mis-sold pension claim</h1>
+            </div>    
+        </div>
+        <div class="divider"></div>
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <img src="img/icon_form.svg" class="mb-3" width="100px"/>                
+                <h4 class="color-blue">Fill in the online form</h4>
+                <p>to request a call from us</p>
+            </div>   
+            <div class="col-sm-4">
+                <img src="img/icon_chat.svg" class="mb-3" width="100px"/>
+                <h4 class="color-blue">Chat to our friendly advisers</h4>
+                <p>about your potential claim</p>
+            </div>  
+            <div class="col-sm-4">
+                <img src="img/icon_mail.svg" class="mb-3" width="100px"/>                
+                <h4 class="color-blue">Complete the simple forms</h4>
+                <p>with our help</p>
+            </div>             
+        </div>
+        <div class="row">
+            <div class="divider"></div>
+            <hr>    
+            <p class="small text-center">You can pursue the claim yourself without using a Claims Management Company and without cost.
+               You will first need to complain directly to the appropriate third party who sold you the product or
+                provided you with the advice and if this is unsuccessful, you can complain through the Financial
+                Ombudsman Service, The Pension Ombudsman, or, the Financial Services Compensation Scheme (depending on the type of complaint and circumstances).</p>
+        </div>            
+    </div>
+</section>       
+    
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-sm-3 offset-sm-3 col-md offset-md-0 px-3 justify-content-center">
+          <img class="footer-logo" src="img/hendersons_brand.svg" width="50%"/>     
+        </div>
+        <div class="col-sm-6 col-md">
+          <h5 class="text-uppercase small">Address</h5>
+            <address class="text-muted">
+                <strong>Hendersons</strong><br>
+                Unit 2, <br>
+                Ashbrook Office Park, <br>
+                Manchester, <br>
+                M22 5LB
+            </address>
+        </div>
+        <div class="col-sm-6 col-md">
+          <h5 class="text-uppercase small">About</h5>
+          <ul class="list-unstyled">
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact-us.html">Contact</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms &amp; Conditions</a></li>   
+          </ul>
+        </div>                  
+        <div class="col-sm-6 col-md">
+          <h5 class="text-uppercase small">Services</h5>
+          <ul class="list-unstyled">
+            <li><a href="mis-sold-coatings.html">Mis-sold Coatings</a></li>
+            <li><a href="mis-sold-pensions.html">Mis-sold Pensions</a></li>           
+          </ul>
+        </div>        
+      </div>
+    </div>
+</footer>
+    
+    <div class="sub-footer">
+        <div class="container">   
+            <div class="row text-center">
+                <div class="col">                
+                    <p class="small text-muted">Hendersons is a trading style of Henderson Claims Limited. Henderson Claims Limited is authorised and regulated by the Financial Conduct Authority with reference number FRN:836041. Henderson Claims Limited is a Claims Management Company (CMC). Registered with the Information Commissioners Office: registration number ZA147049. Registered address: Unit 2, Ashbrook Office Park, Manchester, M22 5LB. Registered in England and Wales, Company number 7646017. VAT number: 240 8769 88.</p>
+                    <p class="small text-muted">©2020</p>                      
+                </div>                    
+            </div>                
+        </div>
+    </div>    
+      
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery.slim.min.js"><\/script>')</script><script src="js/bootstrap.bundle.js"></script>
+    
+    
+<script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js"></script>    
+<!-- <script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#fff0ca","text":"#000000","border":"#e0bc57"},"button":{"background":"#e0bc57","text":"#ffffff"}},"content":{"href":"https://www.togethercompliance.co.uk/privacy.html","message":"We use cookies to analyse traffic to this site and to give you the best experience. By clicking “Accept”, you agree to our use of cookies. To find out more about our use of cookies and how to refuse them, please read our Privacy Policy.\n","button":"Accept"}})});</script> -->
+    
+      </main>  
+    
+    </body>
+</html>

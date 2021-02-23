@@ -1,0 +1,506 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  color: #333533;
+  background: #fff;
+  font-family: segoeUI, sans-serif;
+  font-weight: 400;
+  font-style: normal;  
+}
+
+h1 {
+    font-family: linotype-didot, serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.display-1, .display-2, .display-3 {
+    font-family: linotype-didot, serif;
+    font-style: normal;
+    font-weight: 400; 
+}
+
+.display-4 {
+    font-family: linotype-didot, serif;
+    font-weight: 200; 
+    font-style: normal;      
+}
+
+#data .display-3 {margin-bottom: 3rem;}
+
+a {
+    color: #2F6690;
+    transition: all 0.2s linear 0s;
+}
+
+a:link, a:hover {text-decoration: none;}
+
+footer a { 
+    color:#6c757d;
+}
+footer a:hover, footer a:active {
+    color: #F7F7FF;
+    text-decoration: none;    
+    
+}
+
+.navbar {background: #242423; color: #4C5459;}
+.navbar-brand {width: 200px;}
+
+
+.phone-btn {
+    width: 170px;
+   border: 1px solid #ECCF82;
+   padding: 0 1rem;
+}
+
+.phone-btn p {margin-bottom: 0;}
+
+.jumbotron {
+    background: #4D555C url('../img/hendersons_balance.jpg') no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 0;
+    position: relative;
+    height: 600px;
+    padding: 0rem;    
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    height: 800px;
+    color: #E6E6E6;
+
+}
+
+#about .jumbotron {
+    background: #4D555C url('../img/hendersons_about.jpg') no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 0;
+    position: relative;    
+    color: #E6E6E6; 
+    height: 600px;     
+}
+
+#contact .jumbotron {
+    background: #E8EDDF;
+    color: #333533; 
+    height: 600px;    
+}
+
+#privacy .jumbotron, #terms .jumbotron  {
+    background: #CFDBD5;
+    color: #333533;    
+    padding: 2rem 0 0 0;
+    height: 400px;
+}
+
+#pensions .jumbotron {
+    background: #2F6690 url('../img/hendersons_pension_jar3.jpg') no-repeat;
+    background-position: bottom; 
+    background-size: cover;  
+    color: #fff;  
+}
+
+#coatings .jumbotron {
+    background: #4DAC97 url('../img/hendersons_coating.jpg') no-repeat;
+    background-position: bottom; 
+    background-size: cover;  
+    color: #333533; 
+}
+
+#landing .jumbotron {
+    background: #59B9F5;
+    background-position: bottom; 
+    background-size: cover;  
+    color: #242423; 
+    height: auto;    
+    padding: 3rem 0;
+}
+
+#landing .jumbotron h1.display-4 {
+    font-weight: 800;
+    color: #242423; 
+}
+
+#landing .jumbotron h1 {
+    color: #242423; 
+    font-weight: 800;    
+}
+
+#landing .jumbotron .form-text {
+    color: #242423; 
+    font-weight: 600;    
+}
+
+#pensions .jumbotron .row, #coatings .jumbotron .row, #landing .jumbotron .row, #privacy .jumbotron .row, #terms .jumbotron .row {height: 100%;}
+
+.jumbotron .container {height: 100%;}
+
+section {
+    padding: 4rem 0;
+}
+
+section.about {
+    background: #F5CB5C;
+}
+
+#pensions section.about, #landing section.about {
+    color: #fff;
+    background: #2F6690;
+    padding-bottom: 1rem;
+}
+
+section.services {
+    background: #CFDBD5;
+}
+
+#privacy section.services {
+    padding: 1rem 0;
+}
+
+section.content {
+    background: #E8EDDF;
+}
+
+section.content ul {
+    color: #2F6690;
+    border: 1px solid #2F6690;
+    
+    padding: 2rem;
+}
+
+section.coatings-content {
+    background: #E8EDDF;
+}
+
+section.coatings-content .row {
+    margin-bottom: 2rem;
+}
+
+section.coatings-content .card {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    color: #fff;
+    background: #4DAC97;
+}
+
+section.coatings-content .card p {
+    margin: 1rem;
+}
+
+section.coatings-content .card h1 {
+    margin-top: 2rem;
+}
+section.coatings-content .card .card-title {
+    padding: 2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+section.testimonials {
+    background: #CFDBD5;
+}
+
+section.bullets {
+    color: #E6E6E6;
+    background: #333533;
+}
+
+section.bullets .card {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: none;
+    
+    padding-top: 1rem;    
+}
+
+section.bullets .card p {
+    margin: 2rem;
+}
+
+section.bullets .card h2 {
+    margin: 0;
+}
+section.bullets .card .card-title {
+    padding: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+
+section.bullets hr{
+ border-top: 1px solid #E6E6E6;
+}
+
+.card {
+    text-align: center;
+    border-radius: 0;
+}
+
+.card h5 {
+    margin: 0;
+}
+
+.card-img-top {
+    border-radius: 0;
+}
+
+a.card-body {
+    border-top: 1px solid #333533;
+    color: #333533;
+}
+
+a.card-body:hover {
+    background: #F5CB5C;
+}
+
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+    display: block;
+    height: 3rem;
+}
+
+
+/* Terms List
+-------------------------------------------------- */
+
+
+
+#terms ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+}
+
+#terms ol > li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 1em;
+}
+
+#terms ol > li:before {
+  content: counters(item, ".") ". ";
+  display: table-cell;
+  padding-right: 0.6em;    
+}
+
+#terms li ol > li {
+  margin: 0;
+}
+
+#terms li ol > li:before {
+  content: counters(item, ".") " ";
+}
+
+
+
+/* CONTACT FORM
+-------------------------------------------------- */
+
+.contact-form {
+    color: #333533;
+    background: #CFDBD5; 
+    height: auto;    
+    padding: 3rem 0;
+}
+
+input, textarea {
+    margin-bottom: 1.2rem;
+}
+
+#landing form {
+    padding: 2rem;
+    border: 1px solid #fff;
+}
+
+.modal form {
+    padding: 1rem;
+}
+
+#landing form input, .modal form input {
+    margin-bottom: 0;
+}
+
+#landing label {color: #2F6690; z-index: 5;}
+
+/* Footer
+------------------------- */
+
+footer {
+    width: 100%; 
+    color: #E6E6E6;
+    background: #242423;
+    padding: 3rem 0;
+}
+
+.sub-footer {
+    background: #CFDBD5;
+    padding: 1rem 0;
+}
+
+footer p {margin: 1rem;}
+
+.subfooter p {margin: 0;}
+
+
+/* Button Colours
+------------------------- */
+
+
+.btn-coating {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;    
+    background-color: #4DAC97;    
+    border-color: #54878C; /*set the color you want here*/
+    padding: 1rem 2rem;
+    border-radius: 0;
+}
+.btn-coating:hover, .btn-coating:focus, .btn-coating:active, .btn-coating.active, .open>.dropdown-toggle.btn-coating {
+    color: #fff;
+    background-color: #54878C;
+    border-color: #2E4B4C; /*set the color you want here*/
+}
+
+.btn-pension {
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 500;    
+    background-color: #2F6690;      
+    border-color: #2F6690; /*set the color you want here*/
+    padding: 1rem 2rem;
+    border-radius: 0;    
+}
+.btn-pension:hover, .btn-pension:focus, .btn-pension:active, .btn-pension.active, .open>.dropdown-toggle.btn-pension {
+    color: #2F6690;
+    background-color: #5CC8FF;
+    border-color: #2E4B4C; /*set the color you want here*/
+}
+
+.btn-form {
+    color: #4c4c4c;
+    background-color: #F5CB5C;    
+    border-color: #2F6690; /*set the color you want here*/
+    text-transform: uppercase;
+    font-weight: 500;     
+    padding: 1rem 2rem;
+    border-radius: 0;    
+}
+.btn-form:hover, .btn-form:focus, .btn-form:active, .btn-form.active, .open>.dropdown-toggle.btn-form {
+    color: #fff;
+    background-color: #2F6690;
+    border-color: #2E4B4C; /*set the color you want here*/
+}
+
+
+
+
+/* Colours
+------------------------- */
+
+.bg-grey {background: #4C5459; }
+.bg-blue {background: #5CC8FF; }
+
+.color-blue {color: #2F6690; }
+.color-yellow {color: #F5CB5C; }
+.color-green {color: #4DAC97;}
+.color-purple {color: #D35269;}
+.color-grey {color: #CFDBD5;}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+.jumbotron {
+    background: #4D555C url('../img/hendersons_balance_notext.jpg') no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 0;
+    position: relative;
+    height: 600px;
+    padding: 8rem 0;    
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    color: #E6E6E6;
+}    
+    
+.card {
+    margin-top: 2rem;
+}    
+    
+    .footer-logo {margin-bottom: 3rem;}    
+    
+    
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    
+    .jumbotron {
+        background: #4D555C url('../img/hendersons_balance_notext.jpg') no-repeat;
+        background-position: 50%;
+        background-size: cover;
+        border-radius: 0;
+        position: relative;
+        height: calc(100vh - 46px);
+        padding: 3rem 0;    
+        overflow: hidden;
+        display: block;
+        margin: 0;
+        color: #E6E6E6;
+    }      
+    
+    .jumbotron p.lead {font-size: 1rem;}
+    
+    #contact .jumbotron h1 {font-size: 20px;}
+    
+    #index .jumbotron .row {margin-top: 80px; text-align: center; flex: auto; justify-content: center;}
+    #landing form {padding: 1rem;}
+    #landing form {padding: 1rem;}
+    .phone-btn {
+        width: 180px;
+       border: 2px solid #ECCF82;
+       border-radius: 2rem;
+       margin: 2rem 0;
+       padding: 0 1rem;
+    }    
+    
+    
+    
+    footer {text-align: center;}
+    
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    
+        
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    
+    
+}
+
+
+@media (min-width: 40em) {
+
+    
+    
+} 
+
+@media (min-width: 62em) {
+
+}
